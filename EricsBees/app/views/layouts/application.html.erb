@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EricsBees</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <img id = "header-logo" src = "http://static1.squarespace.com/static/504a9746e4b0a7ecb415e46d/t/539f2977e4b07ded532b5d2d/1453230598735/?format=1500w">
+      <div id = "top-nav-div">
+        <ul id = "top-nav">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </div>
+    </header>
+      <%= yield %>
+    <footer>
+    </footer>
+  </body>
+</html>

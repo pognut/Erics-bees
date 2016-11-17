@@ -1,0 +1,68 @@
+// Place all the styles related to the Bees controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com
+header{
+  display: block;
+}
+
+#top-nav{
+  color:blue;
+  margin: 0 auto;
+  max-width:50%;
+  display: block;
+  margin-top: 20%;
+}
+
+#top-nav li{
+  display: inline;
+  padding: 50px;
+}
+
+#top-nav-div{
+  right:0px;
+  display: inline;
+  position: absolute;
+  width: 75%;
+  height: 100%;
+}
+
+#header-logo{
+  display: inline;
+  width: 25%;
+}
+
+
+#front-top-image{
+
+}
+
+.bg-image-container img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 200px
+}
+
+.bg-image-container{
+  display: block;
+  top:0px;
+  margin: 0px;
+  position: relative;
+  min-height: 180px;
+  z-index: 1;
+}
+
+.section-container{
+  display: block;
+  max-width: 100%;
+  position: relative;
+}
+
+.content-container{
+  display: block;
+  position: relative;
+  max-width: 100%;
+  z-index: 2
+}
