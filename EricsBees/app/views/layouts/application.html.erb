@@ -9,17 +9,23 @@
   </head>
 
   <body>
-    <header>
+    <div class = "parallax">
+    <header class = "section-container" id = "head">
+    <div class = "parallax__layer content-container">
       <img id = "header-logo" src = "http://static1.squarespace.com/static/504a9746e4b0a7ecb415e46d/t/539f2977e4b07ded532b5d2d/1453230598735/?format=1500w">
       <div id = "top-nav-div">
         <ul id = "top-nav">
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
+          <li><a href= "/index">Projects/Home/Whatever</a></li>
+          <li><a href= "/honey">Honey</a></li>
+          <li><a href= "/services">Services</a></li>
+          <li><a href= "/press">Press</a></li>
+          <li><a href= "/contact">Contact</a></li>
         </ul>
+      </div>
       </div>
     </header>
       <%= yield %>
+      </div>
     <footer>
     </footer>
   </body>
