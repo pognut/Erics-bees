@@ -14,3 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require photoswipe.min
+//= require photoswipe-ui-default.min
